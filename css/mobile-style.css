@@ -1,0 +1,72 @@
+@media only screen and (max-width: 1200px) {
+  header .col-md-5 {
+    margin-top: 8rem;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  header .container .col-md-7 h1 {
+    font-size: 4.5vmin;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  header .container .col-md-7 {
+    padding-bottom: 0;
+  }
+  header .container .col-md-5 {
+    padding-top: 0;
+    margin-top: 1rem;
+  }
+}
+
+@media only screen and (max-width: 1170px) {
+  .section-4 .team .card {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  header .navbar-brand {
+    padding-left: 1rem;
+  }
+  .section-1 .row .col-md-6 .panel {
+    position: initial;
+    width: initial;
+    height: initial;
+  }
+  .section-2 .numbers .rect {
+    width: 10rem;
+    height: 8rem;
+  }
+  .numbers .rect h2 {
+    font-size: 2rem;
+  }
+  .section-3 {
+    height: initial;
+    padding: 10vmin !important;
+  }
+  .section-3 .row h2 {
+    padding: 6vmin 4vmin;
+  }
+  .section-3 .row .col-md-6 {
+    text-align: center !important;
+  }
+  .section-3 .desktop i {
+    font-size: 8vmin;
+  }
+  .section-4 .team {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
+  .section-4 .team .card {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  footer .row .col-md-2 {
+    margin-top: 8vmin;
+  }
+}
